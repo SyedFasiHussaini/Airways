@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/searchFlight.css">
-    <title>The Internet Airlines</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/searchFlight.css">
+    <title>Home Page | The Internet Airlines</title>
 
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"
         integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
@@ -75,25 +76,26 @@
                     </select>
                 </div>
                 <div class="radio-btn">
-                <span>
-                    <label for="">Trips:</label>&nbsp;&nbsp;
-                    <input type="radio" name="trip" class="check-box" id="trip"
-                    required>&nbsp;<span>One-way</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="radio" name="trip" class="check-box" id="trip">&nbsp;<span>Round-trip &nbsp;
-                        (40%off)</span></div>
-                        <div class="air-class">
-                            <label for="">Select Class: &nbsp;&nbsp;</label>
-                            <select id="classsection" name="class_preference" required>
-                                <option value="First-class">First class</option>
-                                <option value="Business-class">Business</option>
-                                <option value="Economy-class" selected>Economy</option>
-                                <option value="Economy-class">Premium Economy</option>
-                            </select>
-                        </div>
+                    <span>
+                        <label for="">Trips:</label>&nbsp;&nbsp;
+                        <input type="radio" name="trip" class="check-box" id="trip"
+                            required>&nbsp;<span>One-way</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="trip" class="check-box" id="trip">&nbsp;<span>Round-trip &nbsp;
+                            (40%off)</span>
+                </div>
+                <div class="air-class">
+                    <label for="">Select Class: &nbsp;&nbsp;</label>
+                    <select id="classsection" name="class_preference" required>
+                        <option value="First-class">First class</option>
+                        <option value="Business-class">Business</option>
+                        <option value="Economy-class" selected>Economy</option>
+                        <option value="Economy-class">Premium Economy</option>
+                    </select>
+                </div>
                 <div class="dates">
                     <label for="start">Departure:</label>
-                    <input type="date" id="start" name="trip-start" value="2022-11-11" min="2018-01-01"
-                        max="2023-12-31" class="depart-date">
+                    <input type="date" id="start" name="trip-start" value="2022-11-11" min="2018-01-01" max="2023-12-31"
+                        class="depart-date">
                 </div>
                 <div class="dates">
                     <label for="return">Return:</label>
